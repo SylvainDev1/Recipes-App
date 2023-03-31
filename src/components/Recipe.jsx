@@ -1,7 +1,6 @@
 import IngredientList from "./IngredientList";
 import { useContext } from "react";
 import { RecipeContext } from "./App";
-import image from "../../images/plate.png";
 
 export default function Recipe(props) {
   const { deleteRecipe, handleRecipeSelect } = useContext(RecipeContext);
@@ -27,7 +26,7 @@ export default function Recipe(props) {
       </div>
 
       <div className="plateimg">
-        <img src="images/plate.png" className="plate" alt="plate" />
+        <img src="images\plate.png" className="plate" alt="plate" />
       </div>
 
       <div className="recipe-row">
