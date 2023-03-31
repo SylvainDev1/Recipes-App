@@ -1,0 +1,40 @@
+.btn{
+    font-size: inherit;
+    background: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.btn-add{
+    background-color: hsl(203, 73%, 59%);
+    color: white;
+}
+
+.btn-add:hover{
+    background-color: hsl(203, 73%, 30%);
+    color: white;
+}
+
+.btn-delete{
+    background-color: hsl(355, 82%, 59%);
+    color: white;
+}
+
+.btn-delete:hover{
+    background-color: hsl(355, 82%, 30%);
+    color: white;
+}
+
+.btn-edit{
+    background-color: hsl(158, 68%, 56%);
+    color: white;
+    margin-right: 5px;
+}
+
+.btn-edit:hover{
+    background-color: hsl(158, 68%, 30%);
+    color: white;
+}

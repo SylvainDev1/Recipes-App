@@ -1,0 +1,36 @@
+@import 'button.css';
+@import 'recipe-list.css';
+@import 'ingredient-list.css';
+@import 'recipe.css';
+@import 'recipe-edit.css';
+
+
+*{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+box-sizing: border-box
+}
+
+html{
+    font-size: 20px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(45deg,#f1f584,#aef59a,#bfc5fb,#97f2f9);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
